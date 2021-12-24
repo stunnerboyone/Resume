@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+
+.about-me-profession{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.about-me-section{
+    margin: 10px;
+    padding: 25px;
+}
+
+.projects-section{
+    margin: 10px;
+    padding: 25px;
+}
+
+.experience-section{
+    margin: 10px;
+    padding: 25px;
+}
+
+.education-section{
+    margin: 10px;
+    padding: 25px;
+}
+
+.sidebar-section{
+    margin: 10px;
+    background-color: #1E2939;
+}
