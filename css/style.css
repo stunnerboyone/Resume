@@ -1,43 +1,96 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
 }
 
-.conteiner{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    background-color: #fff;
-    margin: 40px auto;
+.conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
 }
 
-.about-me-profession{
-    font-size: 14px;
-    font-weight: 700;
-    color: #000;
+.about-me-profession {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
 }
 
-.about-me-section{
-    margin: 10px;
-    padding: 25px;
+.about-me-section {
+  margin: 10px;
+  padding: 25px;
 }
 
-.projects-section{
-    margin: 10px;
-    padding: 25px;
+.projects-section {
+  margin: 10px;
+  padding: 25px;
 }
 
-.experience-section{
-    margin: 10px;
-    padding: 25px;
+.experience-section {
+  margin: 10px;
+  padding: 25px;
 }
 
-.education-section{
-    margin: 10px;
-    padding: 25px;
+.education-section {
+  margin: 10px;
+  padding: 25px;
 }
 
-.sidebar-section{
-    margin: 10px;
-    background-color: #1E2939;
+/* sidebar section */
+
+.sidebar-section {
+  width: 370px;
+  background-color: #1e2939;
+  padding: 40px 0;
+}
+
+.sidebar-info-blocks {
+  margin: 45px 0 0 40px;
+}
+
+.sidebar-tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* contacts section */
+.contact-link-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 7px;
+  color: #fff;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  opacity: .5;
+}
+
+/* sidebar tech and soft */
+.sidebar-list {
+  padding: 0;
+  padding-left: 13px;
+}
+
+.sidebar-list li {
+  color: #fb6d3a;
+}
+
+.sidebar-list span {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
