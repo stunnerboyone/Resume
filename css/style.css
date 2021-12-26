@@ -8,33 +8,168 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   margin: 40px auto;
 }
 
-.about-me-profession {
-  font-size: 14px;
-  font-weight: 700;
+.content-section {
+  padding: 100px 90px;
+}
+
+.content-section h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
   color: #000;
+  margin: 0 0 10px 0;
 }
 
+.content-section ol {
+  padding-left: 18px;
+}
+
+/* About me section */
 .about-me-section {
-  margin: 10px;
-  padding: 25px;
+  margin-bottom: 40px;
 }
 
+.about-me-section h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-me-section h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.about-me-section p {
+  margin-bottom: 40px;
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* projects section */
 .projects-section {
-  margin: 10px;
-  padding: 25px;
+  margin-bottom: 50px;
 }
 
+.projects-section ol{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.projects-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin:0;
+  padding-left: 15px;
+}
+
+.projects-section span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.projects-section a{
+  color: #595959;
+}
+
+/* experience section */
 .experience-section {
-  margin: 10px;
-  padding: 25px;
+  margin-bottom: 40px;
 }
 
+.experience-section h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.experience-section span{
+  color:#000;
+}
+
+.experience-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.experience-section ul {
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.experience-section li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.company-name {
+  color: #fb6d3a;
+}
+
+/* education section */
 .education-section {
-  margin: 10px;
-  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.study h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 0 0 10px 0;
+}
+.study h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 10px 0;
+}
+.study p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 15px 0;
+  color: #A8A8A8;
+}
+.study span{
+  color:#000;
 }
 
 /* sidebar section */
@@ -74,20 +209,19 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-/* sidebar tech and soft */
-.sidebar-list {
-  padding: 0;
-  padding-left: 13px;
+/* tech and soft section */
+.tech-and-soft-list {
+  padding-left: 17px;
 }
 
-.sidebar-list li {
+.tech-and-soft-list li {
   color: #fb6d3a;
 }
 
-.sidebar-list span {
+.tech-and-soft-list span {
   color: #fff;
   font-style: normal;
   font-weight: normal;
