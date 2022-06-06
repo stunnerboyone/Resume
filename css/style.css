@@ -13,7 +13,7 @@ body {
 }
 
 .content-section {
-  padding: 100px 90px;
+  padding: 80px 90px;
 }
 
 .content-section h3 {
@@ -46,8 +46,8 @@ body {
 .about-me-section h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 30px;
   color: #000;
   margin-bottom: 25px;
 }
@@ -67,12 +67,19 @@ body {
   margin-bottom: 50px;
 }
 
-.projects-section ol{
+.projects-section ul{
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.project-section li{
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: #595959;
+  margin:0;
+  padding-left: 15px;
 }
 
 .projects-section p {
@@ -90,7 +97,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: #595959;
 }
 .projects-section a{
   color: #595959;
@@ -136,9 +143,7 @@ body {
   line-height: 24px;
   color: #595959;
 }
-.company-name {
-  color: #fb6d3a;
-}
+
 
 /* education section */
 .education-section {
@@ -209,7 +214,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /* tech and soft section */
