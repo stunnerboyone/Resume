@@ -6,7 +6,7 @@ body {
 .conteiner {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1100px;
   background-color: #fff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   margin: 40px auto;
